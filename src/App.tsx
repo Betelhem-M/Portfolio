@@ -55,27 +55,47 @@ export default function App() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack online shopping experience with real-time inventory.",
-      image: "https://picsum.photos/seed/shop/800/600",
+      title: "Dorm Maintenace Reporter",
+      description: "A web platform for students to report their dorm maintenance problems and helps them to get answer as soon as possible.",
+      image: "",
       demoLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Betelhem-M/Dorm-Maintenance-Reporter.git",
+      techOne: "HTML",
+      techTwo: "CSS",
+      techThree: "JavaScript"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative tool for teams to manage projects and deadlines.",
-      image: "https://picsum.photos/seed/task/800/600",
+      title: "Class Schedule Reminder",
+      description: "A platform for efficient teaching learning process which helps students not to miss their class.",
+      image: "",
       demoLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Betelhem-M/Class-Schedule-Reminder.git",
+      techOne: "HTML",
+      techTwo: "CSS",
+      techThree: "JavaScript"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Real-time weather tracking with interactive maps and forecasts.",
-      image: "https://picsum.photos/seed/weather/800/600",
+      title: "Simple Calculator",
+      description: "A simple calculator using javascript.",
+      image: "",
       demoLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Betelhem-M/Simple-Calculator.git",
+      techOne: "HTML",
+      techTwo: "CSS",
+      techThree: "JavaScript"
+    },
+    {
+      id: 4,
+      title: "Campus Gate Security System",
+      description: "A simple calculator using javascript.",
+      image: "",
+      demoLink: "#",
+      githubLink: "https://github.com/Betelhem-M/Campus-gate-security-system.git",
+      techOne: "React",
+      techTwo: "Tailwind CSS",
+      techThree: "Node.js"
     }
   ];
 
@@ -363,8 +383,9 @@ export default function App() {
                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                     <p className="opacity-70 mb-4">{project.description}</p>
                     <div className="flex gap-2">
-                      <span className="text-xs px-2 py-1 bg-blue-600/20 text-blue-400 rounded">React</span>
-                      <span className="text-xs px-2 py-1 bg-blue-600/20 text-blue-400 rounded">Node.js</span>
+                      <span className="text-xs px-2 py-1 bg-blue-600/20 text-blue-400 rounded">{project.techOne}</span>
+                      <span className="text-xs px-2 py-1 bg-blue-600/20 text-blue-400 rounded">{project.techTwo}</span>
+                      <span className="text-xs px-2 py-1 bg-blue-600/20 text-blue-400 rounded">{project.techThree}</span>
                     </div>
                   </div>
                 </motion.div>

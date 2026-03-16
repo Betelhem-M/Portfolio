@@ -7,6 +7,9 @@ export interface Project {
   image: string;
   demoLink?: string;
   githubLink?: string;
+  techOne?: string;
+  techTwo?: string;
+  techThree?: string;
 }
 
 export interface SocialLink {
