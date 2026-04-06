@@ -77,14 +77,14 @@ export default function App() {
     },
     {
       id: 3,
-      title: "Simple Calculator",
-      description: "A simple calculator using javascript.",
+      title: "Senbet Bete",
+      description: "It's a sabbath school file system, to manage students and to share PDFs to them.",
       image: "",
       demoLink: "#",
-      githubLink: "https://github.com/Betelhem-M/Simple-Calculator.git",
+      githubLink: "https://github.com/Betelhem-M/Senbet-Bete.git",
       techOne: "HTML",
-      techTwo: "CSS",
-      techThree: "JavaScript"
+      techTwo: "TailWindCSS",
+      techThree: "TypeScript"
     },
     {
       id: 4,
@@ -96,7 +96,20 @@ export default function App() {
       techOne: "React",
       techTwo: "Tailwind CSS",
       techThree: "Node.js"
+    },
+    {
+      id: 5,
+      title: "A Simple Calculator",
+      description: "Simple Calculator Using JavaScript.",
+      image: "",
+      demoLink: "#",
+      githubLink: "https://github.com/Betelhem-M/Simple-Calculator.git",
+      techOne: "HTML",
+      techTwo: "CSS",
+      techThree: "JavaScript"
+
     }
+ 
   ];
 
   const navLinks = [
@@ -438,35 +451,6 @@ export default function App() {
                   </div>
                 </div>
               </div>
-              <form className="space-y-4 bg-navy-800/50 dark:bg-white/5 p-8 rounded-3xl border border-white/10">
-                <div>
-                  <label className="block text-sm font-medium mb-2">Name</label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 rounded-xl bg-navy-900 dark:bg-navy-800 border border-white/10 focus:border-blue-600 outline-none transition-colors text-white"
-                    placeholder="Your Name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Email</label>
-                  <input 
-                    type="email" 
-                    className="w-full px-4 py-3 rounded-xl bg-navy-900 dark:bg-navy-800 border border-white/10 focus:border-blue-600 outline-none transition-colors text-white"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Message</label>
-                  <textarea 
-                    rows={4}
-                    className="w-full px-4 py-3 rounded-xl bg-navy-900 dark:bg-navy-800 border border-white/10 focus:border-blue-600 outline-none transition-colors resize-none text-white"
-                    placeholder="How can I help you?"
-                  ></textarea>
-                </div>
-                <button className="w-full bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/20">
-                  Send Message
-                </button>
-              </form>
             </div>
           </motion.div>
         );
