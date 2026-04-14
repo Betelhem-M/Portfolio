@@ -16,7 +16,7 @@ import {
   ChevronRight,
   Linkedin
 } from 'lucide-react';
-import { homeProfile, aboutProfile } from './images';
+import { homeProfile, aboutProfile,senbetBete,classScheduleReminder,dormMaintenanceReporter, } from './images';
 import type { Page, Project } from './types';
 
 export default function App() {
@@ -57,8 +57,8 @@ export default function App() {
       id: 1,
       title: "Dorm Maintenace Reporter",
       description: "A web platform for students to report their dorm maintenance problems and helps them to get answer as soon as possible.",
-      image: "{dormMaintenanceReporter}",
-      demoLink: "dorm-maintenance-reporter.vercel.app",
+      image: dormMaintenanceReporter,
+      demoLink: "https://dorm-maintenance-reporter.vercel.app",
       githubLink: "https://github.com/Betelhem-M/Dorm-Maintenance-Reporter.git",
       techOne: "HTML",
       techTwo: "CSS",
@@ -68,8 +68,8 @@ export default function App() {
       id: 2,
       title: "Class Schedule Reminder",
       description: "A platform for efficient teaching learning process which helps students not to miss their class.",
-      image: "{classScheduleReminder}",
-      demoLink: "class-schedule-reminder.vercel.app",
+      image: classScheduleReminder,
+      demoLink: "https://class-schedule-reminder.vercel.app",
       githubLink: "https://github.com/Betelhem-M/Class-Schedule-Reminder.git",
       techOne: "HTML",
       techTwo: "CSS",
@@ -79,8 +79,8 @@ export default function App() {
       id: 3,
       title: "Senbet Bete",
       description: "It's a sabbath school file system, to manage students and to share PDFs to them.",
-      image: "{senbetBete}",
-      demoLink: "senbet-bete.vercel.app",
+      image: senbetBete,
+      demoLink: "https://senbet-bete.vercel.app",
       githubLink: "https://github.com/Betelhem-M/Senbet-Bete.git",
       techOne: "HTML",
       techTwo: "TailWindCSS",
