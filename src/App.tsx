@@ -16,7 +16,7 @@ import {
   ChevronRight,
   Linkedin
 } from 'lucide-react';
-import { homeProfile, aboutProfile,senbetBete,classScheduleReminder,dormMaintenanceReporter, } from './images';
+import { homeProfile, aboutProfile,senbetBete,classScheduleReminder,dormMaintenanceReporter, } from './images/index.ts';
 import type { Page, Project } from './types';
 
 export default function App() {
