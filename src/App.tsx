@@ -96,18 +96,6 @@ export default function App() {
       techOne: "React",
       techTwo: "Tailwind CSS",
       techThree: "Node.js"
-    },
-    {
-      id: 5,
-      title: "A Simple Calculator",
-      description: "Simple Calculator Using JavaScript.",
-      image: "",
-      demoLink: "#",
-      githubLink: "https://github.com/Betelhem-M/Simple-Calculator.git",
-      techOne: "HTML",
-      techTwo: "CSS",
-      techThree: "JavaScript"
-
     }
  
   ];
